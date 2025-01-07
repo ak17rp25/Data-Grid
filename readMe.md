@@ -39,15 +39,15 @@ To start the backend server, run the following command in the backend directory:
 bash
 Copy code
 npm start
-This will start your backend application, typically accessible on http://localhost:PORT.
+This will start your backend application, typically accessible on http://localhost:5000.
 
 Frontend
 To start the frontend application, run the following command in the frontEnd directory:
 
 bash
 Copy code
-npm start
-This will start your frontend application, typically accessible on http://localhost:3000.
+npm run dev/npm start
+This will start your frontend application, typically accessible on http://localhost:5173.
 
 .gitignore
 The .gitignore file is configured to exclude certain files and directories from being tracked by Git, including:
