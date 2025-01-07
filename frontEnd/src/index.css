@@ -1,55 +1,41 @@
-.app-container {
-  padding: 20px;
-}
-
-h1 {
-  text-align: center;
-}
-
-.dropdown-container {
-  margin: 10px 0;
-}
-
-select {
-  padding: 5px;
-  margin-left: 10px;
-}
-
 .data-table {
   width: 100%;
-  margin-top: 20px;
   border-collapse: collapse;
   background-color: bisque;
 }
 
-.data-table th, .data-table td {
+.data-table th,
+.data-table td {
   padding: 10px;
-  text-align: left;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
 }
 
-.data-table button {
-  padding: 5px 10px;
-  background-color: #ff4f58;
-  color: black;
+.data-table thead th {
+  background-color: #f9f9f9;
+  position: sticky;
+  top: 0;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  background-color: #e74c3c;
+  color: white;
   border: none;
+  padding: 5px;
   cursor: pointer;
 }
 
-.data-table button:hover {
-  background-color: #ff3039;
+button:hover {
+  background-color: #c0392b;
 }
 
-button:focus {
-  outline: none;
-}
-
-.data-table th button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.data-table th button:hover {
-  color: #007bff;
+.dropdown-container {
+  margin: 10px 0;
 }
